@@ -1,0 +1,193 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.isabelcontreras.mismascotasfragmentbd.BiosDesarrolloActivity"
+    android:orientation="vertical"
+    android:padding="@dimen/padd_10">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/textView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal|center_vertical"
+                android:layout_margin="@dimen/margin_10"
+                android:text="@string/titulo_acerca"
+                android:textColor="@color/colorPrimaryDark"
+                android:textSize="@dimen/tam_titulo" />
+
+            <ImageView
+                android:id="@+id/imgFotoBio"
+                android:layout_width="@dimen/ancho_foto_bio"
+                android:layout_height="@dimen/alto_foto_bio"
+                android:layout_gravity="center_horizontal"
+                app:srcCompat="@mipmap/img_develop"
+                android:padding="@dimen/padd_3"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:padding="@dimen/padd_3">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_margin="@dimen/margin_10"
+                    android:text="@string/bio_nombre"
+                    android:textColor="@color/colorTextoLabel"
+                    android:textSize="@dimen/tam_texo_label"/>
+
+                <TextView
+                    android:id="@+id/tvNombreBio"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="@dimen/margin_10"
+                    android:layout_weight="1"
+                    android:text="TextView"
+                    android:textColor="@color/colorTexto"
+                    android:textColorHighlight="@color/colorAccent"
+                    android:textSize="@dimen/tam_texo"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:padding="@dimen/padd_3">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_margin="@dimen/margin_10"
+                    android:text="@string/bio_lugar_nacimiento"
+                    android:textColor="@color/colorTextoLabel"
+                    android:textSize="@dimen/tam_texo_label"/>
+
+                <TextView
+                    android:id="@+id/tvLugarNacimientoBio"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="@dimen/margin_10"
+                    android:layout_weight="1"
+                    android:text="TextView"
+                    android:textColor="@color/colorTexto"
+                    android:textSize="@dimen/tam_texo"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:padding="@dimen/padd_3">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_margin="@dimen/margin_10"
+                    android:text="@string/bio_programa"
+                    android:textColor="@color/colorTextoLabel"
+                    android:textSize="@dimen/tam_texo_label"/>
+
+                <TextView
+                    android:id="@+id/tvPrograma"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="@dimen/margin_10"
+                    android:layout_weight="1"
+                    android:text="TextView"
+                    android:textColor="@color/colorTexto"
+                    android:textSize="@dimen/tam_texo"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:padding="@dimen/padd_3">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_margin="@dimen/margin_10"
+                    android:text="@string/bio_fecha_desarrollo"
+                    android:textColor="@color/colorTextoLabel"
+                    android:textSize="@dimen/tam_texo_label"/>
+
+                <TextView
+                    android:id="@+id/tvFechaDesarrolloBio"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="@dimen/margin_10"
+                    android:layout_weight="1"
+                    android:text="TextView"
+                    android:textColor="@color/colorTexto"
+                    android:textSize="@dimen/tam_texo"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:padding="@dimen/padd_3">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_margin="@dimen/margin_10"
+                    android:text="@string/bio_version"
+                    android:textColor="@color/colorTextoLabel"
+                    android:textSize="@dimen/tam_texo_label"/>
+
+                <TextView
+                    android:id="@+id/tvVersionBio"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="@dimen/margin_10"
+                    android:layout_weight="1"
+                    android:text="TextView"
+                    android:textColor="@color/colorTexto"
+                    android:textSize="@dimen/tam_texo"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:padding="@dimen/padd_3">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_margin="@dimen/margin_10"
+                    android:text="@string/bio_sobre_mi"
+                    android:textColor="@color/colorTextoLabel"
+                    android:textSize="@dimen/tam_texo_label" />
+
+                <TextView
+                    android:id="@+id/tvSobreMi"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="@dimen/margin_10"
+                    android:layout_weight="1"
+                    android:text="TextView"
+                    android:textColor="@color/colorTexto"
+                    android:textSize="@dimen/tam_texo"/>
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+
+
+
+</LinearLayout>

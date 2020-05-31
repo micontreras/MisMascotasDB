@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="corder_radio">10dp</dimen>
+    <dimen name="margin_10">10dp</dimen>
+    <dimen name="padd_10">10dp</dimen>
+    <dimen name="padd_3">3dp</dimen>
+    <dimen name="ancho_cardview">280dp</dimen>
+    <dimen name="alto_foto">250dp</dimen>
+    <dimen name="ancho_foto">250dp</dimen>
+    <dimen name="tam_texo">18dp</dimen>
+    <dimen name="tam_titulo">25dp</dimen>
+    <dimen name="tam_texo_label">15dp</dimen>
+
+    <dimen name="alto_foto_bio">220dp</dimen>
+    <dimen name="ancho_foto_bio">250dp</dimen>
+
+    <dimen name="alto_foto_perfil">100dp</dimen>
+    <dimen name="ancho_foto_perfil">100dp</dimen>
+    <dimen name="alto_icono_perfil">20dp</dimen>
+    <dimen name="ancho_icono_perfil">20dp</dimen>
+</resources>
