@@ -18,7 +18,11 @@ import com.isabelcontreras.mismascotasfragmentbd.fragment.PerfilFragment;
 import com.isabelcontreras.mismascotasfragmentbd.fragment.RecyclerViewFragment;
 
 import java.util.ArrayList;
-
+/**
+*
+* Actividad que permite el registro de mascotas
+*
+**/
 public class RegMascotaActivity extends AppCompatActivity {
 
     private Toolbar toolbar;
