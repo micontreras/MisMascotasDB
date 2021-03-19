@@ -5,6 +5,8 @@ public class Mascota {
     private String nombre;
     private int likes;
     private int foto;
+    private String raza;
+
     public Mascota() {
     }
     public Mascota(String nombre, int likes, int foto) {
@@ -48,5 +50,13 @@ public class Mascota {
 
     public void setFoto(int foto) {
         this.foto = foto;
+    }
+
+    public String getRaza() {
+        return raza;
+    }
+
+    public void setRaza(String raza) {
+        this.raza = raza;
     }
 }
