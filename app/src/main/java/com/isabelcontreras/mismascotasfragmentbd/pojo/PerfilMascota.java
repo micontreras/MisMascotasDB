@@ -6,6 +6,7 @@ public class PerfilMascota {
     private int fotoPerfil;
     private String nombre;
     private ArrayList<Mascota> detalleFotosPerfil;
+    private String estatus;
 
     public int getFotoPerfil() {
         return fotoPerfil;
@@ -27,7 +28,22 @@ public class PerfilMascota {
         return detalleFotosPerfil;
     }
 
+
+
+    public ArrayList<Mascota> getDetalleFotosPerfil() {
+        return detalleFotosPerfil;
+    }
+    
     public void setDetalleFotosPerfil(ArrayList<Mascota> detalleFotosPerfil) {
         this.detalleFotosPerfil = detalleFotosPerfil;
     }
+    
+      public String getEstatus() {
+        return estatus;
+    }
+
+    public void setEstatus(String estatus) {
+        this.estatus = estatus;
+    }
+    
 }
